@@ -1,0 +1,41 @@
+{
+  "name": "jet-app",
+  "version": "1.0.0",
+  "description": "Instantly container based microservices.",
+  "main": "jet/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "jet": "bin/jet"
+  },
+  "keywords": [
+    "microservices",
+    "docker",
+    "container",
+    "api",
+    "gateway"
+  ],
+  "author": {
+    "name": "Douglas M. Cotrim P. de Melo",
+    "email": "cotrim.doug@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ejs-stream": "^1.0.0",
+    "gulp-ejs": "^2.3.0",
+    "inquirer": "^2.0.0",
+    "lodash": "^4.17.4",
+    "shelljs": "^0.7.6",
+    "vinyl-fs": "^2.4.4"
+  },
+  "depMap": {
+    "shelljs": "sh",
+    "vinyl-fs": "vfs",
+    "gulp-ejs": "ejs"
+  },
+  "globalDepMap": {
+    "lodash": "_"
+  }
+}
